@@ -9,3 +9,4 @@ Jap
 goed, laten we beginnen
 
 IK BEN ONDERAAN. POEP KOMT OOK VAN ONDERAAN
+IK SNAP ER GEEN DROL VAN
