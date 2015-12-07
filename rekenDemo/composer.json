@@ -1,0 +1,12 @@
+{
+    "require-dev": {
+        "facebook/webdriver": "dev-master"
+        ,
+        "mikey179/vfsStream": "~1"
+    }
+    ,
+    "autoload": {
+        "classmap": ["./vendor/mikey179/vfsStream/src/main/php"]
+    }
+
+}
