@@ -2,7 +2,7 @@ Berend bordje ging uit varen, met zijn scheepje naar zuid laren. De weg was rech
 
 
 
-dit is zo geweldig awesomeeeeeeeeeeeeeeeeee
+Ik heb een hekel aan het zesde uur. dit is zo geweldig awesomeeeeeeeeeeeeeeeeee
 
 
 
