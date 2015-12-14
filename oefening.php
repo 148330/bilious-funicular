@@ -2,7 +2,8 @@ Berend bordje ging uit varen, met zijn scheepje naar zuid laren. De weg was rech
 
 
 
-dit is zo geweldig awesomeeeeeeeeeeeeeeeeee; ik weet niet hoe we deze kots moeten opruimen XD
+Ik heb een hekel aan het zesde uur. dit is zo geweldig awesomeeeeeeeeeeeeeeeeee; ik weet niet hoe we deze kots moeten opruimen XD
+
 
 
 
