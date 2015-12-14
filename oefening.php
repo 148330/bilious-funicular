@@ -2,7 +2,7 @@ oefening nummer 1
 
 
 
-en nu serieus
+dit is zo geweldig awesomeeeeeeeeeeeeeeeeee
 
 
 
