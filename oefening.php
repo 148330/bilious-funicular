@@ -2,7 +2,7 @@ Berend bordje ging uit varen, met zijn scheepje naar zuid laren. De weg was rech
 
 
 
-dit is zo geweldig awesomeeeeeeeeeeeeeeeeee
+dit is zo geweldig awesomeeeeeeeeeeeeeeeeee; ik weet niet hoe we deze kots moeten opruimen XD
 
 
 
