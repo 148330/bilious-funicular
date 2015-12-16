@@ -2,7 +2,7 @@ Berend bordje ging uit varen, met zijn scheepje naar zuid laren. De weg was rech
 
 
 
-Ik heb een hekel aan het zesde uur. dit is zo geweldig awesomeeeeeeeeeeeeeeeeee; ik weet niet hoe we deze kots moeten opruimen XD
+Dit groepje gaat zowiezo een 10+++++ halen voor deze samenwerkingsopdracht XD!!!
 
 
 
