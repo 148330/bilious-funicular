@@ -1,3 +1,4 @@
+<pre>
 <?php
 
 $bestand = "invoer1.txt";
@@ -24,3 +25,5 @@ foreach($result as $w) {
     $collision[$h] = $w;            // spldoublelinkedlist $collision[0] = new SplDoublyLinkedList ();
 }
 print_r($collision);
+?>
+</pre>
