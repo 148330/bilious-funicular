@@ -21,6 +21,6 @@ function mijnHash($w) {
 $collision = array();
 foreach($result as $w) {
     $h = mijnHash($w);
-    $collision[$h] = $w;
+    $collision[$h] = $w;            // spldoublelinkedlist $collision[0] = new SplDoublyLinkedList ();
 }
 print_r($collision);
