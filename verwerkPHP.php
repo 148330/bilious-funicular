@@ -6,3 +6,11 @@
  * and open the template in the editor.
  */
 
+    $file = $_POST['opdracht'];
+        
+
+           if(isset($_POST["verzend"]))
+           {
+            $file = $_POST['opdracht'];
+           }
+           
