@@ -5,12 +5,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+    $bestand = "invoer1.txt";
+    $x = file($bestand);
+    printf($x)     
 
-    $file = $_POST['opdracht'];
-        
-
-           if(isset($_POST["verzend"]))
-           {
-            $file = $_POST['opdracht'];
-           }
+//if(isset($_POST["verzend"]))
+//{
+//$file = $_POST['opdracht'];
+//}
            
+?>
