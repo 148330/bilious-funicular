@@ -1,7 +1,7 @@
 <?php
     $file = $_POST["opdracht"];
     $fh = fopen($file, 'r');
-    $data = fread($fh, filesize($file));
+    $data = fgets($fh);
     fclose($fh);
     echo $data;
 //$bestand = "invoer1.txt";
