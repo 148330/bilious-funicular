@@ -1,6 +1,6 @@
 <?php
     $file = $_POST["opdracht"];
-    
+    print_r($file)
 //$bestand = "invoer1.txt";
 //$x = file($bestand);
 //printf($x);     
