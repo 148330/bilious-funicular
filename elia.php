@@ -2,7 +2,7 @@
 
 
 
-$file = "opdracht 5.txt";
+$file = "opdracht4.txt";
 include "leesBestand.php";
 
 // include "veranderRuweWoordzoekerNaar2DArray.php";   // lever #wz[][]
