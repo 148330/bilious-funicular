@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-$file = "invoer1.txt";
+$file = "opdracht 5.txt";
 include "leesBestand.php";
 
 // include "veranderRuweWoordzoekerNaar2DArray.php";   // lever #wz[][]
