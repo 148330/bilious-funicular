@@ -1,13 +1,14 @@
 <?php
+    $file_handle = fopen("$file", "r");
+        while (!feof($file_handle)) 
+            {
+            $line = fgets($file_handle);
+            echo $line. "<br />";
+            }
+    fclose($file_handle);
 
-    $fh = fopen($file, 'r');
-    $data = fgets($fh). "<br />";
-    fclose($fh);
-    echo $data;
-    
     $ruweWoordzoeker = Array(); // van de regels
     $woorden = Array(); // woorden
-
 //$bestand = "invoer1.txt";
 //$x = file($bestand);
 //printf($x);     
