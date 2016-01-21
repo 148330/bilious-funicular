@@ -9,16 +9,13 @@
 <td>e</td><td>-</td><td>-</td><td>k</td><td>l</td><td>o</td><td>k</td><td>e</td><td>-</td><td>-</td><td>i</td><td>-</td><td>k</td><td>-</td><td>e</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
 </tr>
 <tr>
-<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-p-----k---p----nete-
+<td>p</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>k</td><td>-</td><td>-</td><td>-</td><td>p</td><td>-</td><td>-</td><td>-</td><td>-</td><td>n</td><td>e</td><td>t</td><td>e</td><td>-</td>
 </tr>
 <tr>
-<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
--------ip---cy------
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>i</td><td>p</td><td>-</td><td>-</td><td>-</td><td>c</td><td>y</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
 </tr>
 <tr>
-<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
----merde------ka----
+<td>-</td><td>-</td><td>-</td><td>m</td><td>e</td><td>r</td><td>d</td><td>e</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>k</td><td>a</td><td>-</td><td>-</td><td>-</td><td>-</td>
 </tr>
 
 poep
