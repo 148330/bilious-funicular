@@ -1,9 +1,25 @@
-p--kaas-k-----naakro
-o---lepel-s--oken---
-e--kloke--i-k-e-----
+<table class="invoertabel">
+<tr>
+<td>p</td><td>-</td><td>-</td><td>k</td><td>a</td><td>a</td><td>s</td><td>-</td><td>k</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>n</td><td>a</td><td>a</td><td>k</td><td>r</td><td>o</td>
+</tr>
+<tr>
+<td>o</td><td>-</td><td>-</td><td>-</td><td>l</td><td>e</td><td>p</td><td>e</td><td>l</td><td>-</td><td>s</td><td>-</td><td>-</td><td>o</td><td>k</td><td>e</td><td>n</td><td>-</td><td>-</td><td>-</td>
+</tr>
+<tr>
+<td>e</td><td>-</td><td>-</td><td>k</td><td>l</td><td>o</td><td>k</td><td>e</td><td>-</td><td>-</td><td>i</td><td>-</td><td>k</td><td>-</td><td>e</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+</tr>
+<tr>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 p-----k---p----nete-
+</tr>
+<tr>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 -------ip---cy------
+</tr>
+<tr>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 ---merde------ka----
+</tr>
 
 poep
 kaas
@@ -19,3 +35,4 @@ klok
 kip
 merde
 cyka
+<td></td>
