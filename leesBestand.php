@@ -1,21 +1,27 @@
 <?php
 
 $ruweWoordzoeker = Array(); // van de regels
-$woorden = Array(); // woorden
+$woorden = Array(); // woorden 
+$a = false;
 $file_handle = fopen("$file", "r");
 while (!feof($file_handle)) {
     $line = fgets($file_handle);
-    if (strlen($line) <= 2) {
+   //print_r(strlen($line)); print "<br>";
+    if ((strlen($line) > 2) && ($a == false)){
+         $ruweWoordzoeker[] = $line; // append
+    } 
+    elseif (strlen($line) <= 2) {
         // nu komen de woorden
+        $a = true;
         continue;
     }
-    $ruweWoordzoeker[] = $line; // append 
+    elseif ((strlen($line) > 2) && ($a == true)){
     $woorden[] = $line;
     //echo $line. "<br />";
+    }
 }
 fclose($file_handle);
 
 print "<pre>";
 print_r($ruweWoordzoeker);
 print_r($woorden);
-
