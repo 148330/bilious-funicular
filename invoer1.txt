@@ -32,4 +32,3 @@ klok
 kip
 merde
 cyka
-<td></td>
