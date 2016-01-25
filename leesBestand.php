@@ -9,4 +9,4 @@
 
     $ruweWoordzoeker = Array(); // van de regels
     $woorden = Array(); // woorden
-
+    
