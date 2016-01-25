@@ -1,10 +1,6 @@
 <?php
 
-<<<<<<< HEAD
-    $ruweWoordzoeker = Array(); // van de regels
-    $woorden = Array(); // woorden
-    
-=======
+
 $ruweWoordzoeker = Array(); // van de regels
 $woorden = Array(); // woorden 
 $a = false;
@@ -30,4 +26,4 @@ fclose($file_handle);
 print "<pre>";
 print_r($ruweWoordzoeker);
 print_r($woorden);
->>>>>>> 4241c0340fa4bb1bba00dc4347c91cee0235f91e
+
