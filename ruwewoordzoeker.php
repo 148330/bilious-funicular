@@ -1,11 +1,5 @@
 <?php
 
-$letters = "abcdefghijklmnopqrstuvwxyz";
+$letters = array("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z");
 
-$regel = array('-', 'w');
-foreach($regel as $i => $w){
-        if ($w == '-'){
-                $l = rand(0,26);
-                $regel [$i] = $letters [$l];
-        }
-}
+str_replace("-","mixed array_rand(array $letters[, int $num = 1] )","$ruweWoordzoeker");
