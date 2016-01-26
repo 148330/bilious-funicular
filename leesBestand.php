@@ -1,4 +1,4 @@
-<?php
+    <?php
 
 
 $ruweWoordzoeker = Array(); // van de regels
