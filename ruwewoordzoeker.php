@@ -1,6 +1,6 @@
 <?php
 
-$letter = "abcdefghijklmnopqrstuvwxyz";
+$letters = "abcdefghijklmnopqrstuvwxyz";
 
 $regel = array('-', 'w');
 foreach($regel as $i => $w){
