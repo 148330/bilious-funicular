@@ -7,7 +7,7 @@ $a = false;
 $file_handle = fopen("$file", "r");
 while (!feof($file_handle)) {
     $line = fgets($file_handle);
-    print_r(strlen($line)); print "<br>";
+    //print_r(strlen($line)); print "<br>";
     if ((strlen($line) > 2) && ($a == false)){
          $ruweWoordzoeker[] = $line; // append
     } 
