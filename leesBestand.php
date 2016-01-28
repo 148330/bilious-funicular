@@ -25,6 +25,11 @@ while (!feof($file_handle)) {
 fclose($file_handle);
 
 print "<pre>";
-print_r($ruweWoordzoeker);
-print_r($woorden);
+//print_r($ruweWoordzoeker);
+//print_r($woorden);
+$rw = implode("",$ruweWoordzoeker);
+$w = implode("",$woorden);
+
+print_r ($rw); print "<br>";
+print_r($w);
 
