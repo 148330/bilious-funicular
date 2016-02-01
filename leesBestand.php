@@ -24,7 +24,7 @@ while (!feof($file_handle)) {
 }
 fclose($file_handle);
 
-print "<pre>";
+
 //print_r($ruweWoordzoeker);
 //print_r($woorden);
 $rw = implode("",$ruweWoordzoeker);
