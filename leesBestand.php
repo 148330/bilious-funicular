@@ -27,8 +27,8 @@ fclose($file_handle);
 
 //print_r($ruweWoordzoeker);
 //print_r($woorden);
-$rw = implode("<br>",$ruweWoordzoeker);
-$w = implode("<br>",$woorden);
+$rw = implode("",$ruweWoordzoeker);
+$w = implode("",$woorden);
 
 //print_r ($rw); print "<br><br>";
 //print_r($w);
