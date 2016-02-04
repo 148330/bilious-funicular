@@ -5,6 +5,6 @@
 $file = "opdracht4.txt";
 include "leesBestand.php";
 include "ruwewoordzoeker.php";
-
-// include "veranderRuweWoordzoekerNaar2DArray.php";   // lever #wz[][]
+include "op_volgorde.php";
+include "VRWN2DA.php";   // lever #wz[][]
 // include "findHorizontaleNaarRechts.php";
