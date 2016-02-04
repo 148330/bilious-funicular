@@ -12,7 +12,7 @@ foreach ($ruweWoordzoeker as $rij)
 }
 echo "</table>";
 
-//print implode('', $oWoord); 
+ 
 echo "<br>";
 
 foreach ($woorden as $woord)

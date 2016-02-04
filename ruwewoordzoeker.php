@@ -12,9 +12,3 @@ for($x = 0; $x < count($ruweWoordzoeker); $x++) {
         }
     }
 }
-//print implode('', $oWoord);
-//print implode('', $w);
-//echo "<br>"; 
-//echo $rand;
-//$ruweWoordzoeker = preg_replace("/-/",$rand, $ruweWoordzoeker);
-//$ruweWoordzoeker = str_replace("-", $rand, $ruweWoordzoeker);
