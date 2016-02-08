@@ -1,3 +1,3 @@
 <?php
 
-str_replace("-","$letter","$ruweWoordzoeker");
+str_replace("-",$letter,$ruweWoordzoeker);

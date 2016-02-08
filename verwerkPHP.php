@@ -4,4 +4,4 @@
     $file = $_POST['opdracht'];
     include "leesBestand.php";
      
-?>
+    
