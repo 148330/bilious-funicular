@@ -1,2 +1,9 @@
-<?php
-count($ruweWoordzoeker);
+<html>
+    <head>
+        
+    </head>
+        <body>
+
+
+        </body>
+</html>
