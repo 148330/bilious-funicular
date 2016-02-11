@@ -8,7 +8,7 @@
            foreach ($woorden as $woord) {
              generatehovercode($woord);
                ${'#woord'}. mousein(function(){
-                 ${'.woord'}.css(color: red);  
+                 ${'.woord'}.css("color", "red");  
                });
            }
            ?>
