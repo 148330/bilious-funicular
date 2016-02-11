@@ -17,5 +17,5 @@ echo "<br>";
 
 foreach ($woorden as $woord)
 {
-    echo "<div>" . $woord . "</div>";
+    echo "<div class=\"woord\">" . $woord . "</div>";
 }

@@ -1,7 +1,6 @@
 <html>
     <head>
-       <script src="jquery-1.12.0.min.js">
-       </script> 
+       <script src="jquery.js"/>
        <script>
        $(document).Ready(function()){
            <?php
