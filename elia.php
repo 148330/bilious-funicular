@@ -5,12 +5,12 @@
     <body>
         <form action="elia.php" method="post">
             <select name="opdracht">
-                <option value="opdracht1.txt">opdracht 1</option>
-                <option value="opdracht2.txt">opdracht 2</option>
-                <option value="opdracht3.txt">opdracht 3</option>
-                <option value="opdracht4.txt">opdracht 4</option>
-                <option value="opdracht5.txt">opdracht 5</option>
-                <option value="opdracht6.txt">opdracht 6</option>
+                <option value="opdracht1.txt">Niveau 1</option>
+                <option value="opdracht2.txt">Niveau 2</option>
+                <option value="opdracht3.txt">Niveau 3</option>
+                <option value="opdracht4.txt">Niveau 4</option>
+                <option value="opdracht5.txt">Niveau 5</option>
+                <option value="opdracht6.txt">Niveau 6</option>
             </select>
             <input type="submit" name="woordzoeker" value="woordzoeker"/>
         </form>
