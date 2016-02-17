@@ -44,10 +44,3 @@
     </script>
     </body>
 </html>
-$('#foo').click(function() {
-    $(this).unbind('mouseout');  
-}).mouseover(function() {
-    bar.show();
-}).mouseout(function() {
-    bar.hide();
-});
