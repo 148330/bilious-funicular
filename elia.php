@@ -26,7 +26,8 @@
         include "ruwewoordzoeker.php";
         include "op_volgorde.php";
         // include "findHorizontaleNaarRechts.php   
-    ?>
+    //echo $ruweWoordzoeker[5][2];
+        ?>
         <script type="text/JavaScript">
             $(document).ready(function()
             {
@@ -39,9 +40,51 @@
                 }).mouseout(function() {
                     $(this).css("background-color", "white");
                 });
-                //$("div.woord").hover(function()
-                //{
-                //   
+                //$("div.woord").click(function()
+                //{<?php
+                //$x=0;
+                //$y=0;
+                //$word=0;
+                 //   foreach($ruwewoordzoeker as $line){
+                   //     foreach($line as $char){
+                    //        if(checkLetter($char, $wordPos, $woord)){
+                    //            echo "$char at $x, $y; <br />";
+                    //            searchNeighBors($x, $y, $woordzoeker);
+                    //        }
+                    //    $y = $y + 1;
+                     //   }
+                    //$x = $x + 1;
+                   // }
+    
+  //                  function searchNeighbors($x, $y, $woordzoeker){
+   //                     $neighbors = [
+                            //[$x - 1  ,   $y - 1],
+                            //[$x - 1  ,   $y + 0],    
+                            //[$x - 1  ,   $y + 1], 
+                            //[$x + 0  ,   $y - 1],   
+     //                       [$x + 0  ,   $y + 1],   
+                            //[$x + 1  ,   $y - 1],  
+                            //[$x + 1  ,   $y + 0], 
+                            //[$x + 1  ,   $y + 1],
+    //                    ];
+    //                    foreach($neighbors as $coords){
+    //                        $coordX = $coords[0];
+    //                        $coordY = $coords[1];
+    //                        if(isset($woordzoeker[$coordX][$coordY])){
+    //                            $letter = $woordzoeker[$coordX][$coordY];
+    //                            echo"$coordX, $coordY is $letter\n";
+    //                        }
+    //                    }
+    //                }
+    
+  //                  function checkLetter($char, $position, $woord){
+   //                     foreach($woord as $word){
+    //                        if($char == $word[$position]){
+     //                           return true;
+      //                      }
+       //                 }
+        //                return false;
+         //           }
                 //    console.log(block.css("background-color"));
                 //    if(block.css("background-color") != "rgb(255, 0, 0)")
                 //        block.css("background-color", "red");
@@ -54,8 +97,8 @@
                 //    console.log(block.css("background-color"));
                 //    if(block.css("background-color") != "rgb(0, 255, 0)")
                 //        block.css("background-color", "green");
-
-                //});
+          //      ?>
+                });
             });
     </script>
     </body>

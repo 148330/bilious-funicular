@@ -17,7 +17,7 @@
     foreach($woordzoeker as $line){
         foreach($line as $char){
             if(checkLetter($char, $wordPos, $words)){
-                echo "$char at $xPos, $yPos; start word search\n";
+                echo "<br />$char at $xPos, $yPos; <br />";
                 searchNeighBors($xPos, $yPos, $woordzoeker);
             }
             $yPos = $yPos + 1;
@@ -27,14 +27,14 @@
     
     function searchNeighbors($xPos, $yPos, $woordzoeker){
         $neighbors = [
-            [$xPos - 1  ,   $yPos + 0],    
-            [$xPos - 1  ,   $yPos + 1],    
-            [$xPos + 0  ,   $yPos + 1],   
-            [$xPos + 1  ,   $yPos + 1],
-            [$xPos + 1  ,   $yPos + 0],
-            [$xPos + 1  ,   $yPos - 1],
-            [$xPos + 0  ,   $yPos - 1],
             [$xPos - 1  ,   $yPos - 1],
+            [$xPos - 1  ,   $yPos + 0],    
+            [$xPos - 1  ,   $yPos + 1], 
+            [$xPos + 0  ,   $yPos - 1],   
+            [$xPos + 0  ,   $yPos + 1],   
+            [$xPos + 1  ,   $yPos - 1],  
+            [$xPos + 1  ,   $yPos + 0], 
+            [$xPos + 1  ,   $yPos + 1],
         ];
         foreach($neighbors as $coords){
             $coordX = $coords[0];
