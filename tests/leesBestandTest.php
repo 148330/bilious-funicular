@@ -10,6 +10,7 @@ class leesBestandTest extends PHPUnit_Framework_TestCase {
         $file = './tests/data/t0.txt';
         include 'leesBestand.php';
 
+        print_r($ruweWoordzoeker);
         $this->assertTrue(is_array($ruweWoordzoeker));
         $this->assertEquals(2, count($ruweWoordzoeker));
         $this->assertEquals('a', $ruweWoordzoeker[0][1]);

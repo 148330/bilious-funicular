@@ -4,11 +4,9 @@
         <script>
             $(document).ready(function ()) {
 <?php
+include_once 'generateHoverCode.php';
 foreach ($woorden as $woord) {
-    generatehovercode($woord);
-    ${'#woord'} . mousein(function() {
-                ${'.woord'} . css("color", "red");
-            });
+    generateHoverCode($woord);    
 }
 ?>
             });
