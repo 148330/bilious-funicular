@@ -1,4 +1,5 @@
 <?php
+
 // entry: file should be present in $file  ($file = $_FILES['aaa']['tmp_name]; outside this code
 
 $ruweWoordzoeker = Array();
@@ -7,22 +8,18 @@ $a = false;
 $file_handle = fopen("$file", "r");
 while (!feof($file_handle)) {
     $line = fgets($file_handle);
-    if ((strlen($line) > 2) && ($a == false)){
+    if ((strlen($line) > 2) && ($a == false)) {
         $rijArray = Array();
-        for($x = 0; $x < strlen($line) - 2; $x++)
-        {
+        for ($x = 0; $x < strlen($line) - 2; $x++) {
             $rijArray[] = $line[$x];
         }
-         $ruweWoordzoeker[] = $rijArray;
-    } 
-    elseif (strlen($line) <= 2) {
+        $ruweWoordzoeker[] = $rijArray;
+    } elseif (strlen($line) <= 2) {
         $a = true;
         continue;
+    } elseif ((strlen($line) > 2) && ($a == true)) {
+        $woorden[] = $line;
     }
-    elseif ((strlen($line) > 2) && ($a == true)){
-    $woorden[] = $line;
-    }
-    
 }
 fclose($file_handle);
 
