@@ -1,5 +1,8 @@
 <?php
 
+// alle '-'  in een woordzoeker worden vervangen door een willekeurige letter
+// input : $ruweWoordzoeker
+// output: $ruweWoordzoeker
 
 $letters = array("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z");
 
