@@ -1,5 +1,5 @@
-    <?php
-
+<?php
+// entry: file should be present in $file  ($file = $_FILES['aaa']['tmp_name]; outside this code
 
 $ruweWoordzoeker = Array();
 $woorden = Array();
@@ -26,6 +26,8 @@ while (!feof($file_handle)) {
 }
 fclose($file_handle);
 
-print "<pre>";
+//print "<pre>";    // heeft niets te maken met het inlezen
 
-
+// output
+// $woorden[]: array of the words to be found
+// $ruweWoordzoeker[][] : array of array (so 2D) of letters
