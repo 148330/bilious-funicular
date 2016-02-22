@@ -25,8 +25,8 @@
         include "leesBestand.php";
         include "ruwewoordzoeker.php";
         include "generateClass2DArray.php";
-        include "LRzoeken.php";
-        include "RLzoeken.php";
+        //include "LRzoeken.php";
+        //include "RLzoeken.php";
         include "op_volgorde.php";
         // include "findHorizontaleNaarRechts.php   
     //echo $ruweWoordzoeker[5][2];
