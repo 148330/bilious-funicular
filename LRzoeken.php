@@ -18,7 +18,10 @@ foreach($woorden as $w)
                         {
                         $letter = "<div id=$w>".$letter."</div>";
                         //regirsteer class
-                        }
+                        //Je wilt nu het zoeken linken met waar je met je muis 
+                        //over heen gaat, dit doe je door when mouse over word..
+                        //then "voer dit bestand uit" en kleur dit woord.
+                        } 
                     }
                 }
             }        
