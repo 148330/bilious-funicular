@@ -18,7 +18,7 @@ while (!feof($file_handle)) {
         $a = true;
         continue;
     } elseif ((strlen($line) > 2) && ($a == true)) {
-        $woorden[] = $line;
+        $woorden[] = trim($line);
     }
 }
 fclose($file_handle);

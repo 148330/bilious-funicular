@@ -3,18 +3,41 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-
 $(document).ready(function ()
 {
+    
     console.log("1");
-    $("div.woord").click(function () {
+    
+$('#kelk').mousein(function() { 
+${'.kelk'}.css('color', 'red'); 
+})
+;   
+}); 
+//var woord = <?php echo $woord; ?>;
+$(document).ready(function ()
+{
+    
+    console.log("1");
+    include "generateHoverCode.php";
+    foreach($woorden as $woord)     
+        generateHoverCode($woord);
+    /*
+
+    $("div#kelk").click(function () {
+        $(".kelk").unbind('mouseout');
+    }).mouseover(function () {
+        $(".kelk").css("background-color", "red");
+    }).mouseout(function () {
+        $(".kelk").css("background-color", "white");
+    });
+    $("div#olifant").click(function () {
         $(this).unbind('mouseout');
     }).mouseover(function () {
         $(this).css("background-color", "red");
     }).mouseout(function () {
         $(this).css("background-color", "white");
     });
+    */
 });
 
 
