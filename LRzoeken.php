@@ -5,9 +5,9 @@ foreach($woorden as $w)
 {
     LRzoeken($ruweWoordzoeker, $w);
 }
-    function LRzoeken(Array $ruweWoordzoeker, $woorden) 
+    function LRzoeken(Array $ruweWoordzoeker, $w) 
         {
-        $woordArray = str_split(trim($woorden));
+        $woordArray = str_split(trim($w));
         foreach($ruweWoordzoeker as $x => $rij) 
             {
             foreach($rij as $y => $letter) 
@@ -16,9 +16,9 @@ foreach($woorden as $w)
                     {
                     if (isHetLRwoordDaar($x, $y, $ruweWoordzoeker, $woordArray)) 
                         {
-                        $letter = "<div id=$woorden>".$letter."</div>";
+                        $letter = "<div id=$w>".$letter."</div>";
                         //regirsteer class
-                        } 
+                        }
                     }
                 }
             }        

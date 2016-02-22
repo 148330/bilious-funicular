@@ -3,7 +3,7 @@
        <script src="js/jquery.js"></script>
     </head>
     <body>
-        <form action="elia.php" method="post">
+       <form action="elia.php" method="post">
             <select name="opdracht">
                 <option value="opdracht1.txt">Niveau 1</option>
                 <option value="opdracht2.txt">Niveau 2</option>
