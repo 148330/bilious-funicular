@@ -7,6 +7,9 @@ foreach ($ruweWoordzoeker as $i => $rij) {
     foreach ($rij as $j => $letter) {
        // $classInfo = haalClassOpVoor($i, $j); // bv class='kelk  olifant'
         $classInfo = "";
+        if (isset($classInformatie[$i][$j])) {
+            $classInfo = "class='" . implode(' ', $classInformatie[$i][$j]) . "'";
+        }
         echo "<td $classInfo>" . $letter . "</td>";
     }
     echo "</tr>";
