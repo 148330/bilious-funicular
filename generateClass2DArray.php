@@ -6,9 +6,9 @@
  * and open the template in the editor.
  */
 
-foreach($ruweWoordzoeker as $i => $rij) {
-    foreach($rij as $j => $letter) {
-        $classInformatie[$i][$j] = array();
+foreach($ruweWoordzoeker as $x => $rij) {
+    foreach($rij as $y => $letter) {
+        $classInformatie[$x][$y] = array();
     }
 }
 
