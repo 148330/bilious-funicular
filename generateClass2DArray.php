@@ -12,5 +12,5 @@ foreach($ruweWoordzoeker as $x => $rij) {
     }
 }
 
-array_push($classInformatie[0][1], $woorden);
-print_r($classInformatie[0][1]);
+//array_push($classInformatie[0][1], $woorden);
+//print_r($classInformatie[0][1]);

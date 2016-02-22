@@ -1,5 +1,5 @@
 <?php
-   $woordzoeker2 = [
+ /*  $woordzoeker2 = [
     	['a', 'd', 'd', 'd', 'd', 'd', 'd', 'p', 'd'],
     	['d', 'a', 'd', 'd', 'd', 'd', 'd', 'a', 'd'],
     	['d', 'd', 'n', 'd', 'd', 'd', 'd', 'n', 'd'],
@@ -7,7 +7,7 @@
     	['d', 'd', 'd', 'd', 'a', 'd', 'd', 'd', 'd'],
     	['d', 'd', 'd', 'd', 'b', 'k', 'd', 'd', 'd'],
     ];
-   
+   */
    
    $woordzoeker[] = str_split("ddaanpakddddd");
    $woordzoeker[] = str_split("ddaanbakdakdd");
@@ -17,7 +17,9 @@
         "aanbak",
         "pan"
     ];
+    /*
     $xPos = 0;
+   
     $yPos = 0;
     $wordPos = 0;
     foreach($woordzoeker as $line){
@@ -30,7 +32,7 @@
         }
         $xPos = $xPos + 1;
     }
-    
+      */
   include "nietMeerOpGrid.php";
     function isHetLRwoordDaar($i, $j, $woordzoeker, $woordArray) {
         foreach($woordArray as $k => $letter) {
@@ -58,7 +60,7 @@
     }
     foreach($words as $w) 
         LRzoeken($woordzoeker, $w);
-    
+    /*
     function searchNeighbors($xPos, $yPos, $woordzoeker){
         $neighbors = [
             [$xPos - 1  ,   $yPos - 1],
@@ -88,4 +90,6 @@
         }
         return false;
     }
+     
+     */
 ?>
