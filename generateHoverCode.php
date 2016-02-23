@@ -1,10 +1,13 @@
 
 <?php
+function generateKlik ($woord)  {
+    return ".click(function() \n{ \n\$('#$woord').unbind('mouseout'); \n})\n";
+}
 function generateMouseIn($woord) {
-    return ".mouseenter(function() \n{ \n\$('.$woord').css('color', 'red'); \n})\n";
+    return ".mouseenter(function() \n{ \n\$('#$woord').css('color', 'red'); \n})\n";
 }
 function generateMouseOut($woord) {
-    return ".mouseout(function() { \$('.$woord').css('color', 'black'); })\n";
+    return ".mouseout(function() { \$('#$woord').css('color', 'black'); })\n";
 }
 function generateHoverCode($woord) {
     // generate code for each word
@@ -12,6 +15,7 @@ function generateHoverCode($woord) {
     // stel $woord is abc dan
     // $('#abc').mousein(function() { $('.abc').css('color': 'red') });
     echo "\$('#$woord')\n";
+    echo generateKlik($woord);
     echo generateMouseIn($woord);
     echo generateMouseOut($woord);
     echo ';';

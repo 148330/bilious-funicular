@@ -5,9 +5,10 @@ foreach($woorden as $w)
 {
     LRzoeken($ruweWoordzoeker, $w);
 }
-    function LRzoeken(Array $ruweWoordzoeker, $woorden) 
+    function LRzoeken(Array $ruweWoordzoeker, $w) 
         {
-        $woordArray = str_split(trim($woorden));
+        global $classInformatie;
+        $woordArray = str_split(trim($w));
         foreach($ruweWoordzoeker as $x => $rij) 
             {
             foreach($rij as $y => $letter) 
@@ -16,11 +17,11 @@ foreach($woorden as $w)
                     {
                     if (isHetLRwoordDaar($x, $y, $ruweWoordzoeker, $woordArray)) 
                         {
-                        $letter = "<div id=$woorden>".$letter."</div>";
                         //regirsteer class
                         //Je wilt nu het zoeken linken met waar je met je muis 
                         //over heen gaat, dit doe je door when mouse over word..
                         //then "voer dit bestand uit" en kleur dit woord.
+                        $classInformatie[$x][$y][] = $w;
                         } 
                     }
                 }
