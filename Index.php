@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta charset="utf-8">
        <script src="js/jquery.js"></script>
      <link rel="stylesheet" type="text/css" href="style.css">
     </head>
@@ -26,7 +27,6 @@
     }
         include "leesBestand.php";
         include "ruwewoordzoeker.php";
-        include "generateClass2DArray.php";
         include "LRzoeken.php";
         include "RLzoeken.php";
         include "BoBezoeken.php";
