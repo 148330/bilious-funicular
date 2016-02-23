@@ -69,3 +69,4 @@ foreach($woorden as $w)
                 }
             return true;
         }
+        // Hier moet de recursive function komen
