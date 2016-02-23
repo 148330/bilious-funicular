@@ -66,5 +66,14 @@ foreach($woorden as $w)
                 }
                 return true;
             }
+            
         // de functie laten herroepen totdat alles true is
         //  Hier moet de recursive function komen
+            // function fact($n) {
+               //if ($n === 0) { // our base case
+               //   return 1;
+               //}
+               //else {
+               //   return $n * fact($n-1); // <--calling itself.
+               //}
+              //}
