@@ -40,8 +40,10 @@
         include "RL2zoeken.php";
         //van R naar Links > van Boven naar Onder
         include "op_volgorde.php";
-        // include "findHorizontaleNaarRechts.php   
-    //echo $ruweWoordzoeker[5][2];
+        // include "findHorizontaleNaarRechts.php 
+        // recursive function
+        // 8 queens problem
+        // recursivi functie opzoeken        
         ?>
         <script type="text/JavaScript">
             <?php
