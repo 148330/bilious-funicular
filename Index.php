@@ -101,7 +101,7 @@ if(isset($_POST["woordzoeker"]))
         ?>
         <script type="text/JavaScript">
             <?php
-            include 'js/casper.php';
+            include 'include_hovercode.php';
             ?>
             
                     </script>
