@@ -92,6 +92,7 @@ if(isset($_POST["woordzoeker"]))
         //van R naar Links > van Onder naar Boven
         include "RL2zoeken.php";
         //van R naar Links > van Boven naar Onder
+        include "Niveau5.php";
         include "op_volgorde.php";
         // include "findHorizontaleNaarRechts.php 
         // recursive function
