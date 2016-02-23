@@ -28,3 +28,6 @@ fclose($file_handle);
 // output
 // $woorden[]: array of the words to be found
 // $ruweWoordzoeker[][] : array of array (so 2D) of letters
+
+
+//scheiden tussen woordzoeker en woorden
