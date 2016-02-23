@@ -4,7 +4,7 @@
      <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-       <form action="elia.php" method="post">
+       <form action="index.php" method="post">
             <select name="opdracht">
                 <option value="opdracht1.txt"> </option>
                 <option value="opdracht1.txt">Niveau 1</option>
