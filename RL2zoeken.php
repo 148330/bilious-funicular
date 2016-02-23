@@ -3,9 +3,9 @@
 include_once "nietMeerOpGrid.php";
 foreach($woorden as $w) 
 {
-    LR2zoeken($ruweWoordzoeker, $w);
+    RL2zoeken($ruweWoordzoeker, $w);
 }
-    function LR2zoeken(Array $ruweWoordzoeker, $w) 
+    function RL2zoeken(Array $ruweWoordzoeker, $w) 
         {
         global $classInformatie;
         $woordArray = str_split(trim($w));
@@ -15,7 +15,7 @@ foreach($woorden as $w)
                 {
                 if ($letter == $woordArray[0]) 
                     {
-                    if (isHetLR2woordDaar($x, $y, $ruweWoordzoeker, $woordArray)) 
+                    if (isHetRL2woordDaar($x, $y, $ruweWoordzoeker, $woordArray)) 
                         {
                         //regirsteer class
                         //Je wilt nu het zoeken linken met waar je met je muis 
@@ -23,22 +23,22 @@ foreach($woorden as $w)
                         //then "voer dit bestand uit" en kleur dit woord.
                         foreach($woordArray as $k => $letter)
                             {
-                            $classInformatie[$x + $k][$y + $k][] = $w;
+                            $classInformatie[$x + $k][$y - $k][] = $w;
                             }
                         }
                     }
                 }
             }        
         } 
-    function isHetLR2woordDaar($x, $y, $ruweWoordzoeker, $woordArray) 
+    function isHetRL2woordDaar($x, $y, $ruweWoordzoeker, $woordArray) 
         {
             foreach($woordArray as $k => $letter) 
                 {
-                if (nietMeerOpGrid($ruweWoordzoeker, $x + $k, $y + $k)) 
+                if (nietMeerOpGrid($ruweWoordzoeker, $x + $k, $y - $k)) 
                     {
                     return false;
                     }
-                if ($letter != $ruweWoordzoeker[$x + $k][$y+$k])
+                if ($letter != $ruweWoordzoeker[$x + $k][$y-$k])
                     return false;
                 }
             return true;
