@@ -28,6 +28,7 @@
         include "LRzoeken.php";
         include "RLzoeken.php";
         include "BoBezoeken.php";
+        include "BeBozoeken.php";
         include "op_volgorde.php";
         // include "findHorizontaleNaarRechts.php   
     //echo $ruweWoordzoeker[5][2];
