@@ -4,10 +4,10 @@ function generateKlik ($woord)  {
     return ".click(function() \n{ $('#$woord').css('color','red');\n\$('#$woord').unbind('mouseout'); \n})\n";
 }
 function generateMouseIn($woord) {
-    return ".mouseenter(function() \n{ \n\$('.$woord').css('color', 'red'); \n})\n";
+    return ".mouseenter(function() \n{ \n\$('.$woord').css('background-color', 'red'); \n})\n";
 }
 function generateMouseOut($woord) {
-    return ".mouseout(function() { \$('.$woord').css('color', 'black'); })\n";
+    return ".mouseout(function() { \$('.$woord').css('background-color', 'white'); })\n";
 }
 function generateHoverCode($woord) {
     // generate code for each word
