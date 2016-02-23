@@ -20,5 +20,5 @@ echo "</table>";
 echo "<br>";
 
 foreach ($woorden as $woord) {
-    echo "<div id=\"$woord\">" . $woord . "</div>";
+    echo "<div class=\"woord\" id=\"$woord\">" . $woord . "</div>";
 }

@@ -1,7 +1,7 @@
 
 <?php
 function generateKlik ($woord)  {
-    return ".click(function() \n{ \n\$('#$woord').unbind('mouseout'); \n})\n";
+    return ".click(function() \n{ $('#$woord').css('color','red');\n\$('#$woord').unbind('mouseout'); \n})\n";
 }
 function generateMouseIn($woord) {
     return ".mouseenter(function() \n{ \n\$('.$woord').css('color', 'red'); \n})\n";

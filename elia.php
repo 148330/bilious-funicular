@@ -1,6 +1,7 @@
 <html>
     <head>
        <script src="js/jquery.js"></script>
+     <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
        <form action="elia.php" method="post">
@@ -23,7 +24,6 @@
     elseif(!isset($_POST["woordzoeker"])){
         $file="opdracht1.txt";
     }
-       
         include "leesBestand.php";
         include "ruwewoordzoeker.php";
         include "generateClass2DArray.php";
