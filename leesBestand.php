@@ -29,5 +29,5 @@ fclose($file_handle);
 // $woorden[]: array of the words to be found
 // $ruweWoordzoeker[][] : array of array (so 2D) of letters
 
-
+//Stopt de woordzoeker en woordenlijst in een array
 //Scheid de woordzoeker van de woorden

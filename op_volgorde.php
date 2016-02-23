@@ -15,7 +15,7 @@ foreach ($ruweWoordzoeker as $x => $rij) {
     echo "</tr>";
 }
 echo "</table>";
-//Maakt van het array een tabel
+//Maakt van het array van de woordzoeker een tabel
 
 echo "<br>";
 foreach ($woorden as $woord) {
