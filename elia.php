@@ -5,6 +5,7 @@
     <body>
        <form action="elia.php" method="post">
             <select name="opdracht">
+                <option value="opdracht1.txt"> </option>
                 <option value="opdracht1.txt">Niveau 1</option>
                 <option value="opdracht2.txt">Niveau 2</option>
                 <option value="opdracht3.txt">Niveau 3</option>
@@ -22,6 +23,7 @@
     elseif(!isset($_POST["woordzoeker"])){
         $file="opdracht1.txt";
     }
+       
         include "leesBestand.php";
         include "ruwewoordzoeker.php";
         include "generateClass2DArray.php";
