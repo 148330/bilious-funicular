@@ -6,13 +6,48 @@
     <body>
        <form action="index.php" method="post">
             <select name="opdracht">
-                <option value="opdracht1.txt"> </option>
-                <option value="opdracht1.txt">Niveau 1</option>
-                <option value="opdracht2.txt">Niveau 2</option>
-                <option value="opdracht3.txt">Niveau 3</option>
-                <option value="opdracht4.txt">Niveau 4</option>
-                <option value="opdracht5.txt">Niveau 5</option>
-                <option value="opdracht6.txt">Niveau 6</option>
+                <option 
+                    <?php 
+                        if(isset($_POST["woordzoeker"])) 
+                            if($_POST["opdracht"] == "opdracht1.txt")
+                                echo "selected";
+                    ?>
+                    value="opdracht1.txt">Niveau 1</option>
+                <option 
+                    <?php 
+                        if(isset($_POST["woordzoeker"]))
+                            if($_POST["opdracht"] == "opdracht2.txt")
+                                echo "selected";
+                    ?>
+                    value="opdracht2.txt">Niveau 2</option>
+                <option 
+                    <?php 
+                        if(isset($_POST["woordzoeker"])) 
+                            if($_POST["opdracht"] == "opdracht3.txt")
+                                echo "selected";
+                    ?>
+                    value="opdracht3.txt">Niveau 3</option>
+                <option 
+                    <?php 
+                        if(isset($_POST["woordzoeker"])) 
+                            if($_POST["opdracht"] == "opdracht4.txt")
+                                echo "selected";
+                    ?>
+                    value="opdracht4.txt">Niveau 4</option>
+                <option
+                    <?php 
+                        if(isset($_POST["woordzoeker"])) 
+                            if($_POST["opdracht"] == "opdracht5.txt")
+                                echo "selected";
+                    ?>
+                    value="opdracht5.txt">Niveau 5</option>
+                <option 
+                    <?php 
+                        if(isset($_POST["woordzoeker"])) 
+                            if($_POST["opdracht"] == "opdracht6.txt")
+                                echo "selected";
+                    ?>
+                    value="opdracht6.txt">Niveau 6</option>
             </select>
             <input type="submit" name="woordzoeker" value="woordzoeker"/>
         </form>
