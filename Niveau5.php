@@ -32,41 +32,39 @@ foreach($woorden as $w)
                 {
                 if (nietMeerOpGrid($ruweWoordzoeker, $x, $y + $k)) 
                     {
-                    return false;
+                        return false;
                     }
-                if ($letter != $ruweWoordzoeker[$x][$y+$k])
-                    return false;
-                elseif (nietMeerOpGrid($ruweWoordzoeker, $x, $y - $k)) 
-                    {
-                    return false;
+                    if ($letter != $ruweWoordzoeker[$x][$y + $k]) {
+                        return false;
+                    } 
+                    elseif (nietMeerOpGrid($ruweWoordzoeker, $x, $y - $k)) {
+                        return false;
                     }
-                if ($letter != $ruweWoordzoeker[$x][$y-$k])
-                    return false;
-                elseif (nietMeerOpGrid($ruweWoordzoeker, $x + $k, $y - $k)) 
-                    {
-                    return false;
+                    if ($letter != $ruweWoordzoeker[$x][$y - $k]) {
+                        return false;
+                    } elseif (nietMeerOpGrid($ruweWoordzoeker, $x + $k, $y - $k)) {
+                        return false;
                     }
-                if ($letter != $ruweWoordzoeker[$x + $k][$y-$k])
-                    return false;
-                elseif (nietMeerOpGrid($ruweWoordzoeker, $x - $k, $y - $k)) 
-                    {
-                    return false;
+                    if ($letter != $ruweWoordzoeker[$x + $k][$y - $k]) {
+                        return false;
+                    } elseif (nietMeerOpGrid($ruweWoordzoeker, $x - $k, $y - $k)) {
+                        return false;
                     }
-                if ($letter != $ruweWoordzoeker[$x - $k][$y - $k])
-                    return false;
-                elseif (nietMeerOpGrid($ruweWoordzoeker, $x + $k, $y + $k)) 
-                    {
-                    return false;
+                    if ($letter != $ruweWoordzoeker[$x - $k][$y - $k]) {
+                        return false;
+                    } elseif (nietMeerOpGrid($ruweWoordzoeker, $x + $k, $y + $k)) {
+                        return false;
                     }
-                if ($letter != $ruweWoordzoeker[$x + $k][$y+$k])
-                    return false;
-                elseif (nietMeerOpGrid($ruweWoordzoeker, $x - $k, $y + $k)) 
-                    {
-                    return false;
+                    if ($letter != $ruweWoordzoeker[$x + $k][$y + $k]) {
+                        return false;
+                    } elseif (nietMeerOpGrid($ruweWoordzoeker, $x - $k, $y + $k)) {
+                        return false;
                     }
-                if ($letter != $ruweWoordzoeker[$x - $k][$y+$k])
-                    return false;
+                    if ($letter != $ruweWoordzoeker[$x - $k][$y + $k]) {
+                        return false;
+                    }
                 }
-            return true;
-        }
-        // Hier moet de recursive function komen
+                return true;
+            }
+        // de functie laten herroepen totdat alles true is
+        //  Hier moet de recursive function komen
