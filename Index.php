@@ -1,3 +1,8 @@
+<?php
+if(isset($_POST["woordzoeker"]))
+    $opdracht = $_POST["opdracht"];
+?>
+<!DOCTYPE html>
 <html>
     <head>
        <script src="js/jquery.js"></script>
@@ -8,55 +13,68 @@
             <select name="opdracht">
                 <option 
                     <?php 
-                        if(isset($_POST["woordzoeker"])) 
-                            if($_POST["opdracht"] == "opdracht1.txt")
+                        if(isset($opdracht)) {
+                            if($opdracht == "opdracht1.txt") {
                                 echo "selected";
+                            }
+                        }
                     ?>
                     value="opdracht1.txt">Niveau 1</option>
                 <option 
                     <?php 
-                        if(isset($_POST["woordzoeker"]))
-                            if($_POST["opdracht"] == "opdracht2.txt")
+                        if(isset($opdracht)) {
+                            if($opdracht == "opdracht2.txt") {
                                 echo "selected";
+                        }
+                    }
                     ?>
                     value="opdracht2.txt">Niveau 2</option>
                 <option 
                     <?php 
-                        if(isset($_POST["woordzoeker"])) 
-                            if($_POST["opdracht"] == "opdracht3.txt")
-                                echo "selected";
+                        if(isset($opdracht)) {
+                           if($opdracht == "opdracht3.txt"){
+                               echo "selected"; 
+                            }   
+                        }
+                              
                     ?>
                     value="opdracht3.txt">Niveau 3</option>
                 <option 
                     <?php 
-                        if(isset($_POST["woordzoeker"])) 
-                            if($_POST["opdracht"] == "opdracht4.txt")
+                        if(isset($opdracht)) {
+                            if($opdracht == "opdracht4.txt") {
                                 echo "selected";
+                            }
+                        }
                     ?>
                     value="opdracht4.txt">Niveau 4</option>
                 <option
                     <?php 
-                        if(isset($_POST["woordzoeker"])) 
-                            if($_POST["opdracht"] == "opdracht5.txt")
+                        if(isset($opdracht)) {
+                            if($opdracht == "opdracht5.txt") {
                                 echo "selected";
+                            }
+                        }
                     ?>
                     value="opdracht5.txt">Niveau 5</option>
                 <option 
                     <?php 
-                        if(isset($_POST["woordzoeker"])) 
-                            if($_POST["opdracht"] == "opdracht6.txt")
+                        if(isset($opdracht)) {
+                            if($opdracht == "opdracht6.txt") {
                                 echo "selected";
+                            }
+                        }
                     ?>
                     value="opdracht6.txt">Niveau 6</option>
             </select>
             <input type="submit" name="woordzoeker" value="woordzoeker"/>
         </form>
     <?php
-    if(isset($_POST["woordzoeker"]))
+    if(isset($opdracht))
     {
-        $file = $_POST["opdracht"];
+        $file = $opdracht;
     }
-    elseif(!isset($_POST["woordzoeker"])){
+    else{
         $file="opdracht1.txt";
     }
         include "leesBestand.php";
