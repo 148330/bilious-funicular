@@ -17,10 +17,6 @@ foreach($woorden as $w)
                     {
                     if (isHetLRwoordDaar($x, $y, $ruweWoordzoeker, $woordArray)) 
                         {
-                        //regirsteer class
-                        //Je wilt nu het zoeken linken met waar je met je muis 
-                        //over heen gaat, dit doe je door when mouse over word..
-                        //then "voer dit bestand uit" en kleur dit woord.
                         foreach($woordArray as $k => $letter)
                             {
                             $classInformatie[$x][$y + $k][] = $w;
