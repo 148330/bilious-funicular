@@ -1,3 +1,6 @@
 .woord{
     cursor: pointer;
 }
+.woord:hover{
+    color: blue;    
+}
