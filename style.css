@@ -5,3 +5,7 @@
 .woord:hover{
     color: blue;    
 }
+
+.geklikt{
+    background-color: red
+}
