@@ -15,9 +15,10 @@ foreach ($ruweWoordzoeker as $x => $rij) {
     echo "</tr>";
 }
 echo "</table>";
-
+//Maakt van het array een tabel
 
 echo "<br>";
 foreach ($woorden as $woord) {
     echo "<div class=\"woord\" id=\"$woord\">" . $woord . "</div>";
+    //Geeft elke letter een div en een class
 }

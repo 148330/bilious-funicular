@@ -1,6 +1,7 @@
 <?php
 if(isset($_POST["woordzoeker"]))
     $opdracht = $_POST["opdracht"];
+//POST een variabele geven
 ?>
 <!DOCTYPE html>
 <html>
@@ -65,7 +66,7 @@ if(isset($_POST["woordzoeker"]))
                                 echo "selected";
                             }
                         }
-                    ?>
+                    ?> 
                     value="opdracht6.txt">Niveau 6</option>
             </select>
             <input type="submit" name="woordzoeker" value="woordzoeker"/>
@@ -77,31 +78,42 @@ if(isset($_POST["woordzoeker"]))
     }
     else{
         $file="opdracht1.txt";
+        //Het tekstbestand waar alle woorden en de "tabel" in staan
     }
         include "leesBestand.php";
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         include "ruwewoordzoeker.php";
+        //Van de '-' (uit de woordzoeker) random letters maken
         include "LRzoeken.php";
+        //Woorden van Links naar Rechts zoeken
         include "RLzoeken.php";
+        //Woorden van Rechts naar Links zoeken
         include "BoBezoeken.php";
+        //Woorden van Boven naar Beneden zoeken
         include "BeBozoeken.php";
+        //Woorden van Beneden naar Boven zoeken
         include "LR1zoeken.php";
-        //van L naar Rechts > van Onder naar Boven
+        //Woorden van Links naar Rechts > van Onder naar Boven
         include "LR2zoeken.php";
-        //van L naar Rechts > van Boven naar Onder
+        //Woorden van Links naar Rechts > van Boven naar Onder
         include "RL1zoeken.php";
-        //van R naar Links > van Onder naar Boven
+        //Woorden van Rechts naar Links > van Onder naar Boven
         include "RL2zoeken.php";
-        //van R naar Links > van Boven naar Onder
+        //Woorden van Rechts naar Links > van Boven naar Onder
         include "Niveau5.php";
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         include "op_volgorde.php";
-        // include "findHorizontaleNaarRechts.php 
-        // recursive function
-        // 8 queens problem
-        // recursivi functie opzoeken        
+        //Het schema in een tabel plaatsen
+        // include "findHorizontaleNaarRechts.php //////////////////////////////////////////////////////////////////////////////////////
+        // recursive function //////////////////////////////////////////////////////////////////////////////////////////////////////////
+        // 8 queens problem ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        // recursivi functie opzoeken        ///////////////////////////////////////////////////////////////////////////////////////////
         ?>
         <script type="text/JavaScript">
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
             <?php
             include 'include_hovercode.php';
+            //Zorgen dat de woorden die gevonden worden wanneer de muis een opdracht geeft van achtergrondkleur veranderen
             ?>
             
                     </script>

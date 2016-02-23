@@ -18,5 +18,5 @@
         }
         return false;
     }
+    //Zorgt ervoor dat de woorden gezocht worden met alle letters binnen de woordzoeker
 ?>
-   

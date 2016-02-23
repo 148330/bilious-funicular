@@ -30,4 +30,4 @@ fclose($file_handle);
 // $ruweWoordzoeker[][] : array of array (so 2D) of letters
 
 
-//scheiden tussen woordzoeker en woorden
+//Scheid de woordzoeker van de woorden
