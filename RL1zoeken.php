@@ -19,7 +19,7 @@ foreach($woorden as $w)
                         {
                         foreach($woordArray as $k => $letter)
                             {
-                            $classInformatie[$x + $k][$y - $k][] = $w;
+                            $classInformatie[$x - $k][$y - $k][] = $w;
                             }
                         }
                     }
@@ -30,11 +30,11 @@ foreach($woorden as $w)
         {
             foreach($woordArray as $k => $letter) 
                 {
-                if (nietMeerOpGrid($ruweWoordzoeker, $x + $k, $y - $k)) 
+                if (nietMeerOpGrid($ruweWoordzoeker, $x - $k, $y - $k)) 
                     {
                     return false;
                     }
-                if ($letter != $ruweWoordzoeker[$x + $k][$y - $k])
+                if ($letter != $ruweWoordzoeker[$x - $k][$y - $k])
                     return false;
                 }
             return true;
