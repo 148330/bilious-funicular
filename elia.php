@@ -31,6 +31,12 @@
         include "BeBozoeken.php";
         include "LR1zoeken.php";
         //van L naar Rechts > van Onder naar Boven
+        include "LR2zoeken.php";
+        //van L naar Rechts > van Boven naar Onder
+        include "RL1zoeken.php";
+        //van R naar Links > van Onder naar Boven
+        include "RL2zoeken.php";
+        //van R naar Links > van Boven naar Onder
         include "op_volgorde.php";
         // include "findHorizontaleNaarRechts.php   
     //echo $ruweWoordzoeker[5][2];
