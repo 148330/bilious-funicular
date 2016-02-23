@@ -21,8 +21,11 @@ foreach($woorden as $w)
                         //Je wilt nu het zoeken linken met waar je met je muis 
                         //over heen gaat, dit doe je door when mouse over word..
                         //then "voer dit bestand uit" en kleur dit woord.
-                        $classInformatie[$x][$y][] = $w;
-                        } 
+                        foreach($woordArray as $k => $letter)
+                            {
+                            $classInformatie[$x][$y + $k][] = $w;
+                            }
+                        }
                     }
                 }
             }        
