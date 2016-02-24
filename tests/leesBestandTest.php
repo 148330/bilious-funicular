@@ -16,7 +16,7 @@ class leesBestandTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals('a', $ruweWoordzoeker[0][1]);
       // print_r($woorden);
         $this->assertEquals(1, count($woorden), "maar 1 woord");
-        $this->assertEquals('ab', $woorden[0]);
+        $this->assertEquals('abcdefg', $woorden[0]);
     }
 
 }
