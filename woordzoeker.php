@@ -19,7 +19,6 @@
         $file = $opdracht;  //POST een variabele geven
     }
  
-        echo $file;
         include "leesBestand.php";
        //Het leest het tekstbestand in en scheid de woorden van de woordzoeker en stopt ze in een array
         include "ruwewoordzoeker.php";
