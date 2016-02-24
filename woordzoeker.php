@@ -18,10 +18,7 @@
         $opdracht = $_POST["opdracht"];
         $file = $opdracht;  //POST een variabele geven
     }
-    else{
-        $file="opdracht1.txt";
-        //Het tekstbestand waar alle woorden en de woordzoeker in staan
-    }   
+ 
         echo $file;
         include "leesBestand.php";
        //Het leest het tekstbestand in en scheid de woorden van de woordzoeker en stopt ze in een array
