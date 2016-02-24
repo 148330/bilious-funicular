@@ -1,8 +1,5 @@
 <?php
 
-// input : $ruweWoordzoeker
-// output: $ruweWoordzoeker
-
 $letters = array("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z");
 
 for($x = 0; $x < count($ruweWoordzoeker); $x++) {
@@ -14,4 +11,6 @@ for($x = 0; $x < count($ruweWoordzoeker); $x++) {
         }
     }
 }
+// input : $ruweWoordzoeker
+// output: $ruweWoordzoeker
 // Alle '-'  in een woordzoeker worden vervangen door een willekeurige letter

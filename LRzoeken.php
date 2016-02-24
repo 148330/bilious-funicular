@@ -14,18 +14,18 @@ foreach($woorden as $w)
             foreach($rij as $y => $letter) 
                 {
                 if ($letter == $woordArray[0]) 
-                    {
+                    { //Vanaf hier kijkt hij naar het begin letter
                     if (isHetLRwoordDaar($x, $y, $ruweWoordzoeker, $woordArray)) 
-                        {
+                        { //Vanaf daar zoekt hij de rest van het woord
                         foreach($woordArray as $k => $letter)
                             {
                             $classInformatie[$x][$y + $k][] = $w;
-                            }
+                            } // Hier slaat hij alle informatie op
                         }
                     }
                 }
             }        
-        } 
+        }
     function isHetLRwoordDaar($x, $y, $ruweWoordzoeker, $woordArray) 
         {
             foreach($woordArray as $k => $letter) 
@@ -37,6 +37,6 @@ foreach($woorden as $w)
                     if ($letter != $ruweWoordzoeker[$x][$y + $k]) {
             return false;
         }
-    }
+    }       //Kijkt of het woord er is, dat doet hij door de foute mogelijkheden buiten te sluiten
             return true;
         }

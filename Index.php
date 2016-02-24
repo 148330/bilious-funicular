@@ -78,10 +78,10 @@ if(isset($_POST["woordzoeker"]))
     }
     else{
         $file="opdracht1.txt";
-        //Het tekstbestand waar alle woorden en de "tabel" in staan
+        //Het tekstbestand waar alle woorden en de woordzoeker in staan
     }
         include "leesBestand.php";
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+       //Het leest het tekstbestand in en scheid de woorden van de woordzoeker en stopt ze in een array
         include "ruwewoordzoeker.php";
         //Van de '-' (uit de woordzoeker) random letters maken
         include "LRzoeken.php";
@@ -100,17 +100,15 @@ if(isset($_POST["woordzoeker"]))
         //Woorden van Rechts naar Links > van Onder naar Boven
         include "RL2zoeken.php";
         //Woorden van Rechts naar Links > van Boven naar Onder
-        include "Niveau5.php";
+       // include "Niveau5.php";
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         include "op_volgorde.php";
         //Het schema in een tabel plaatsen
-        // include "findHorizontaleNaarRechts.php //////////////////////////////////////////////////////////////////////////////////////
         // recursive function //////////////////////////////////////////////////////////////////////////////////////////////////////////
         // 8 queens problem ////////////////////////////////////////////////////////////////////////////////////////////////////////////
         // recursivi functie opzoeken        ///////////////////////////////////////////////////////////////////////////////////////////
         ?>
         <script type="text/JavaScript">
-            ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
             <?php
             include 'include_hovercode.php';
             //Zorgen dat de woorden die gevonden worden wanneer de muis een opdracht geeft van achtergrondkleur veranderen
