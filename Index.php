@@ -7,7 +7,7 @@
     </head>
     <body>
        <form action="woordzoeker.php" method="post">
-            <input type="file" name="opdracht"/>
+           <input type="file" name="opdracht" required=""/>
             <br/>
             <input type="submit" name="verzend" value="woordzoeker"/>
         </form>

@@ -9,7 +9,7 @@ class LRzoekenTest extends PHPUnit_Framework_TestCase {
     public function testLRzoeken() {
         //$this->assertEquals('a', $w[0]);
         //$this->assertEquals('d', $w[3]);
-      //  $this->assertTrue('abcdefg',$classinformatie[0][3][]);
+        //$this->assertEquals('abcdefg',$classinformatie[0][3][]);
     }
     
     public function testisHetLRwoordDaar(){
