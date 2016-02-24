@@ -1,6 +1,6 @@
 <?php
 
-include_once 'nietMeerOpGrid.php';
+include_once "LRzoeken.php";
 
 class nietMeerOpGridTest extends PHPUnit_Framework_TestCase {
 
