@@ -34,8 +34,9 @@ foreach($woorden as $w)
                     {
                     return false;
                     }
-                if ($letter != $ruweWoordzoeker[$x][$y+$k])
-                    return false;
-                }
+                    if ($letter != $ruweWoordzoeker[$x][$y + $k]) {
+            return false;
+        }
+    }
             return true;
         }

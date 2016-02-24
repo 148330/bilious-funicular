@@ -1,6 +1,5 @@
 <?php
 
-// alle '-'  in een woordzoeker worden vervangen door een willekeurige letter
 // input : $ruweWoordzoeker
 // output: $ruweWoordzoeker
 
@@ -15,3 +14,4 @@ for($x = 0; $x < count($ruweWoordzoeker); $x++) {
         }
     }
 }
+// Alle '-'  in een woordzoeker worden vervangen door een willekeurige letter
