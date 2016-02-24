@@ -7,9 +7,11 @@
     </head>
     <body>
        <form action="woordzoeker.php" method="post">
-            <input type="file" name="opdracht"/>
+            <input type="file" name="opdracht">
             <br/>
             <input type="submit" name="verzend" value="woordzoeker"/>
+            <br/>
+            <br/>
         </form>
     <?php
     if(isset($_POST["verzend"])){
@@ -17,7 +19,7 @@
         $file = $opdracht;  //POST een variabele geven
     }
     else{
-        $file="opdracht4.txt";
+        $file="opdracht1.txt";
         //Het tekstbestand waar alle woorden en de woordzoeker in staan
     }   
         echo $file;
