@@ -1,11 +1,9 @@
 <?php
-
-// entry: file should be present in $file  ($file = $_FILES['aaa']['tmp_name]; outside this code
-
 $ruweWoordzoeker = Array();
 $woorden = Array();
 $a = false;
 $file_handle = fopen("$file", "r");
+//Het inlezen van het tekstbestand
 while (!feof($file_handle)) {
     $line = fgets($file_handle);
     if ((strlen($line) > 2) && ($a == false)) {
@@ -23,11 +21,9 @@ while (!feof($file_handle)) {
 }
 fclose($file_handle);
 
-//print "<pre>";    // heeft niets te maken met het inlezen
-
 // output
 // $woorden[]: array of the words to be found
 // $ruweWoordzoeker[][] : array of array (so 2D) of letters
 
 //Stopt de woordzoeker en woordenlijst in een array
-//Scheid de woordzoeker van de woorden
+//Scheid de woordzoeker van de woorden door de Br

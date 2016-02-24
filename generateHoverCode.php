@@ -4,7 +4,7 @@ function generateKlik ($woord)  {
     return ".click(function() \n{ $('#$woord').css('color','red');"
             //Maakt het woord permanent rood als je er op klikt
             . "\n\$('.$woord').attr('class','geklikt'); \n})\n";
-                //Als een letter eenmaal 'vast' staat, dan blijft hij dat ook
+                //Door de class te veranderen blijven de letters in de woordzoeker gekleurd
 //Als je op een woord klikt, dan blijft hij permanent zichtbaar in de tabel
 }
 function generateMouseIn($woord) {
@@ -18,10 +18,6 @@ function generateMouseOut($woord) {
     }
 }
 function generateHoverCode($woord) {
-    // generate code for each word
-    // if on id=$woord iets gedaan wordt, dan class=$woord wordt aangepast
-    // stel $woord is abc dan
-    // $('#abc').mousein(function() { $('.abc').css('color': 'red') });
     echo "\$('#$woord')\n";
     echo generateMouseIn($woord);
     echo generateKlik($woord);
