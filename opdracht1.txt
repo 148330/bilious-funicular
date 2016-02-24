@@ -4,7 +4,7 @@
 -pentagram--bloed---
 engel----jezus------
 ----bruin---venster-
--opperhoofd---buigen
+--------------buigen
 koptelefoon---------
 ---laptop---hoes----
 --typemachine-ratten
@@ -31,7 +31,6 @@ engel
 jezus
 bruin
 venster
-oppperhoofd
 buigen
 koptelefoon
 laptop

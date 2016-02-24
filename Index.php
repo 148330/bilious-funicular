@@ -103,7 +103,6 @@ if(isset($_POST["woordzoeker"]))
             <?php
             include 'js/casper.php';
             ?>
-            
                     </script>
     </body>
 </html>

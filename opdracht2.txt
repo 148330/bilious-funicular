@@ -4,7 +4,7 @@ pistool-krek--helaas
 -pentagram--bloed---
 engel----jezus-nete-
 ----bruin---venster-
--opperhoofd---buigen
+--------------buigen
 koptelefoon---nennap
 ---laptop---hoes----
 --typemachine-ratten
@@ -40,7 +40,6 @@ engel
 jezus
 bruin
 venster
-oppperhoofd
 buigen
 koptelefoon
 laptop

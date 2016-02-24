@@ -16,7 +16,6 @@ foreach ($ruweWoordzoeker as $x => $rij) {
 }
 echo "</table>";
 
-
 echo "<br>";
 foreach ($woorden as $woord) {
     echo "<div class=\"woord\" id=\"$woord\">" . $woord . "</div>";
